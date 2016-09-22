@@ -1,3 +1,8 @@
+//使用 PCH
+//Targets->Build Settings->Apple LLVM x.x – Language
+//Precompile Prefix Header 設定為 YES
+//Prefix Header 設定為PCH檔的路徑
+
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 

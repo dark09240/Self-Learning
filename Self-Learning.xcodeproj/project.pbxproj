@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		B6D93BF51D93D0F80078F4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93BF41D93D0F80078F4C7 /* main.m */; };
 		B6D93BF81D93D0F80078F4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93BF71D93D0F80078F4C7 /* AppDelegate.m */; };
-		B6D93BFB1D93D0F80078F4C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93BFA1D93D0F80078F4C7 /* ViewController.m */; };
-		B6D93BFE1D93D0F80078F4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D93BFC1D93D0F80078F4C7 /* Main.storyboard */; };
 		B6D93C001D93D0F80078F4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D93BFF1D93D0F80078F4C7 /* Assets.xcassets */; };
 		B6D93C031D93D0F80078F4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D93C011D93D0F80078F4C7 /* LaunchScreen.storyboard */; };
 		B6D93C0E1D93D0F90078F4C7 /* Self_LearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C0D1D93D0F90078F4C7 /* Self_LearningTests.m */; };
 		B6D93C191D93D0F90078F4C7 /* Self_LearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C181D93D0F90078F4C7 /* Self_LearningUITests.m */; };
+		B6D93C291D93D1A50078F4C7 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C281D93D1A50078F4C7 /* MainTableViewController.m */; };
+		B6D93C2B1D93D1B50078F4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D93C2A1D93D1B50078F4C7 /* Main.storyboard */; };
+		B6D93C2F1D93D1CF0078F4C7 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C2D1D93D1CF0078F4C7 /* CalculatorViewController.m */; };
+		B6D93C301D93D1CF0078F4C7 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D93C2E1D93D1CF0078F4C7 /* CalculatorViewController.xib */; };
+		B6D93C371D93D1E50078F4C7 /* ReversedStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C331D93D1E50078F4C7 /* ReversedStringViewController.m */; };
+		B6D93C381D93D1E50078F4C7 /* ReversedStringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D93C341D93D1E50078F4C7 /* ReversedStringViewController.xib */; };
+		B6D93C391D93D1E50078F4C7 /* NSString+ReversedString.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C361D93D1E50078F4C7 /* NSString+ReversedString.m */; };
+		B6D93C421D93D2050078F4C7 /* SillySnakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C3C1D93D2050078F4C7 /* SillySnakeViewController.m */; };
+		B6D93C431D93D2050078F4C7 /* SillySnakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D93C3D1D93D2050078F4C7 /* SillySnakeViewController.xib */; };
+		B6D93C441D93D2050078F4C7 /* SillySnakeData.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C3F1D93D2050078F4C7 /* SillySnakeData.m */; };
+		B6D93C451D93D2050078F4C7 /* SillySnakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D93C411D93D2050078F4C7 /* SillySnakeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +48,6 @@
 		B6D93BF41D93D0F80078F4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6D93BF61D93D0F80078F4C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6D93BF71D93D0F80078F4C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6D93BF91D93D0F80078F4C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B6D93BFA1D93D0F80078F4C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B6D93BFD1D93D0F80078F4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6D93BFF1D93D0F80078F4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6D93C021D93D0F80078F4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6D93C041D93D0F80078F4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +57,25 @@
 		B6D93C141D93D0F90078F4C7 /* Self-LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self-LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D93C181D93D0F90078F4C7 /* Self_LearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Self_LearningUITests.m; sourceTree = "<group>"; };
 		B6D93C1A1D93D0F90078F4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D93C261D93D1240078F4C7 /* Self-Learning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Self-Learning-Prefix.pch"; sourceTree = "<group>"; };
+		B6D93C271D93D1A50078F4C7 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		B6D93C281D93D1A50078F4C7 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		B6D93C2A1D93D1B50078F4C7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B6D93C2C1D93D1CF0078F4C7 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		B6D93C2D1D93D1CF0078F4C7 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		B6D93C2E1D93D1CF0078F4C7 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+		B6D93C321D93D1E50078F4C7 /* ReversedStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReversedStringViewController.h; sourceTree = "<group>"; };
+		B6D93C331D93D1E50078F4C7 /* ReversedStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReversedStringViewController.m; sourceTree = "<group>"; };
+		B6D93C341D93D1E50078F4C7 /* ReversedStringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReversedStringViewController.xib; sourceTree = "<group>"; };
+		B6D93C351D93D1E50078F4C7 /* NSString+ReversedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ReversedString.h"; sourceTree = "<group>"; };
+		B6D93C361D93D1E50078F4C7 /* NSString+ReversedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ReversedString.m"; sourceTree = "<group>"; };
+		B6D93C3B1D93D2050078F4C7 /* SillySnakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SillySnakeViewController.h; sourceTree = "<group>"; };
+		B6D93C3C1D93D2050078F4C7 /* SillySnakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SillySnakeViewController.m; sourceTree = "<group>"; };
+		B6D93C3D1D93D2050078F4C7 /* SillySnakeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SillySnakeViewController.xib; sourceTree = "<group>"; };
+		B6D93C3E1D93D2050078F4C7 /* SillySnakeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SillySnakeData.h; sourceTree = "<group>"; };
+		B6D93C3F1D93D2050078F4C7 /* SillySnakeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SillySnakeData.m; sourceTree = "<group>"; };
+		B6D93C401D93D2050078F4C7 /* SillySnakeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SillySnakeView.h; sourceTree = "<group>"; };
+		B6D93C411D93D2050078F4C7 /* SillySnakeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SillySnakeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +126,14 @@
 		B6D93BF21D93D0F80078F4C7 /* Self-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				B6D93C311D93D1D30078F4C7 /* Calculator */,
+				B6D93C3A1D93D1EA0078F4C7 /* ReversedString */,
+				B6D93C461D93D2090078F4C7 /* SillySnake */,
 				B6D93BF61D93D0F80078F4C7 /* AppDelegate.h */,
 				B6D93BF71D93D0F80078F4C7 /* AppDelegate.m */,
-				B6D93BF91D93D0F80078F4C7 /* ViewController.h */,
-				B6D93BFA1D93D0F80078F4C7 /* ViewController.m */,
-				B6D93BFC1D93D0F80078F4C7 /* Main.storyboard */,
+				B6D93C271D93D1A50078F4C7 /* MainTableViewController.h */,
+				B6D93C281D93D1A50078F4C7 /* MainTableViewController.m */,
+				B6D93C2A1D93D1B50078F4C7 /* Main.storyboard */,
 				B6D93BFF1D93D0F80078F4C7 /* Assets.xcassets */,
 				B6D93C011D93D0F80078F4C7 /* LaunchScreen.storyboard */,
 				B6D93C041D93D0F80078F4C7 /* Info.plist */,
@@ -118,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				B6D93BF41D93D0F80078F4C7 /* main.m */,
+				B6D93C261D93D1240078F4C7 /* Self-Learning-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +167,42 @@
 				B6D93C1A1D93D0F90078F4C7 /* Info.plist */,
 			);
 			path = "Self-LearningUITests";
+			sourceTree = "<group>";
+		};
+		B6D93C311D93D1D30078F4C7 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B6D93C2C1D93D1CF0078F4C7 /* CalculatorViewController.h */,
+				B6D93C2D1D93D1CF0078F4C7 /* CalculatorViewController.m */,
+				B6D93C2E1D93D1CF0078F4C7 /* CalculatorViewController.xib */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		B6D93C3A1D93D1EA0078F4C7 /* ReversedString */ = {
+			isa = PBXGroup;
+			children = (
+				B6D93C321D93D1E50078F4C7 /* ReversedStringViewController.h */,
+				B6D93C331D93D1E50078F4C7 /* ReversedStringViewController.m */,
+				B6D93C341D93D1E50078F4C7 /* ReversedStringViewController.xib */,
+				B6D93C351D93D1E50078F4C7 /* NSString+ReversedString.h */,
+				B6D93C361D93D1E50078F4C7 /* NSString+ReversedString.m */,
+			);
+			name = ReversedString;
+			sourceTree = "<group>";
+		};
+		B6D93C461D93D2090078F4C7 /* SillySnake */ = {
+			isa = PBXGroup;
+			children = (
+				B6D93C3B1D93D2050078F4C7 /* SillySnakeViewController.h */,
+				B6D93C3C1D93D2050078F4C7 /* SillySnakeViewController.m */,
+				B6D93C3D1D93D2050078F4C7 /* SillySnakeViewController.xib */,
+				B6D93C3E1D93D2050078F4C7 /* SillySnakeData.h */,
+				B6D93C3F1D93D2050078F4C7 /* SillySnakeData.m */,
+				B6D93C401D93D2050078F4C7 /* SillySnakeView.h */,
+				B6D93C411D93D2050078F4C7 /* SillySnakeView.m */,
+			);
+			name = SillySnake;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +311,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D93C381D93D1E50078F4C7 /* ReversedStringViewController.xib in Resources */,
+				B6D93C431D93D2050078F4C7 /* SillySnakeViewController.xib in Resources */,
+				B6D93C2B1D93D1B50078F4C7 /* Main.storyboard in Resources */,
 				B6D93C031D93D0F80078F4C7 /* LaunchScreen.storyboard in Resources */,
+				B6D93C301D93D1CF0078F4C7 /* CalculatorViewController.xib in Resources */,
 				B6D93C001D93D0F80078F4C7 /* Assets.xcassets in Resources */,
-				B6D93BFE1D93D0F80078F4C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +341,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6D93BFB1D93D0F80078F4C7 /* ViewController.m in Sources */,
+				B6D93C421D93D2050078F4C7 /* SillySnakeViewController.m in Sources */,
+				B6D93C451D93D2050078F4C7 /* SillySnakeView.m in Sources */,
+				B6D93C291D93D1A50078F4C7 /* MainTableViewController.m in Sources */,
 				B6D93BF81D93D0F80078F4C7 /* AppDelegate.m in Sources */,
+				B6D93C2F1D93D1CF0078F4C7 /* CalculatorViewController.m in Sources */,
+				B6D93C441D93D2050078F4C7 /* SillySnakeData.m in Sources */,
+				B6D93C371D93D1E50078F4C7 /* ReversedStringViewController.m in Sources */,
+				B6D93C391D93D1E50078F4C7 /* NSString+ReversedString.m in Sources */,
 				B6D93BF51D93D0F80078F4C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B6D93BFC1D93D0F80078F4C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B6D93BFD1D93D0F80078F4C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B6D93C011D93D0F80078F4C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Self-Learning/Self-Learning-Prefix.pch";
 				INFOPLIST_FILE = "Self-Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dong.Self-Learning";
@@ -435,6 +503,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Self-Learning/Self-Learning-Prefix.pch";
 				INFOPLIST_FILE = "Self-Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dong.Self-Learning";

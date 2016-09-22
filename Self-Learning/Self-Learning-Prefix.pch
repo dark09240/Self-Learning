@@ -1,0 +1,22 @@
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//消除performSelector:的警告
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+//用GCD建立design patterns singleton
+#define SYNTHESIZE_SINGLETON_FOR_CLASS(classname) \
++ (classname *)shared##classname { \
+    static classname *shared##classname = nil; \
+    static dispatch_once_t onceToken; \
+        dispatch_once(&onceToken, ^{ \
+            shared##classname = [[self alloc] init]; \
+        }); \
+    return shared##classname; \
+} \

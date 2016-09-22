@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SillySnakeViewController">
+            <connections>
+                <outlet property="myBackButton" destination="7Bm-zR-6tU" id="xSF-Qe-fqC"/>
+                <outlet property="mySillySnakeView" destination="i5M-Pr-FkT" id="ggu-Zm-ku4"/>
+                <outlet property="myStartButton" destination="Yj3-og-9YK" id="Q3g-Nx-Pny"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="SillySnakeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bm-zR-6tU">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="Thc-tU-E6E"/>
+                    </constraints>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="JE9-1k-C9m"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj3-og-9YK">
+                    <state key="normal" title="Start"/>
+                    <connections>
+                        <action selector="start:" destination="-1" eventType="touchUpInside" id="gux-gF-rpo"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7Bm-zR-6tU" firstAttribute="top" secondItem="Yj3-og-9YK" secondAttribute="bottom" constant="8" id="7WL-Zq-l3M"/>
+                <constraint firstItem="Yj3-og-9YK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-19.5" id="9R4-f8-ced"/>
+                <constraint firstItem="7Bm-zR-6tU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="18.5" id="GuD-cd-hze"/>
+                <constraint firstItem="7Bm-zR-6tU" firstAttribute="centerX" secondItem="Yj3-og-9YK" secondAttribute="centerX" id="vbp-8k-RMo"/>
+                <constraint firstItem="Yj3-og-9YK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wZ9-4y-KLZ"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

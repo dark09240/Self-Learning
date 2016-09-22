@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReversedStringViewController">
+            <connections>
+                <outlet property="myLabel" destination="I2F-gb-s0U" id="NwS-zm-Q2G"/>
+                <outlet property="myTtextField" destination="uH4-hn-l2f" id="4Xy-Rb-WFH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uH4-hn-l2f">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-oE-smh">
+                    <state key="normal" title="Reversed String"/>
+                    <connections>
+                        <action selector="reversedString:" destination="-1" eventType="touchUpInside" id="jCJ-Ia-Zm6"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2F-gb-s0U">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Whc-oE-smh" secondAttribute="trailing" constant="126" id="E1w-tc-WEm"/>
+                <constraint firstItem="uH4-hn-l2f" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="226" id="JRS-SY-yqa"/>
+                <constraint firstAttribute="trailing" secondItem="uH4-hn-l2f" secondAttribute="trailing" constant="16" id="PsY-xN-iut"/>
+                <constraint firstItem="uH4-hn-l2f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Ydi-t3-DUH"/>
+                <constraint firstItem="I2F-gb-s0U" firstAttribute="top" secondItem="Whc-oE-smh" secondAttribute="bottom" constant="8" id="dlc-82-TSy"/>
+                <constraint firstItem="Whc-oE-smh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="126" id="fU9-Gi-Eza"/>
+                <constraint firstItem="Whc-oE-smh" firstAttribute="top" secondItem="uH4-hn-l2f" secondAttribute="bottom" constant="8" id="kWa-U7-V7O"/>
+                <constraint firstItem="I2F-gb-s0U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="kvg-Im-0Ly"/>
+                <constraint firstAttribute="trailing" secondItem="I2F-gb-s0U" secondAttribute="trailing" constant="16" id="oeI-zG-ehB"/>
+                <constraint firstItem="I2F-gb-s0U" firstAttribute="height" secondItem="uH4-hn-l2f" secondAttribute="height" id="rVm-4R-WHV"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
